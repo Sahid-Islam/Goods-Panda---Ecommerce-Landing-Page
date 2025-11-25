@@ -120,7 +120,7 @@
         width: 250px;
     }
     .main-container{
-    margin: 10px 50px 20px 50px;
+    margin: 10px 20px 20px 20px;
 }
 }
 @media  screen and (max-width: 520px) {
@@ -296,7 +296,7 @@
     }
     .main-shoes p{
         /* text-align: justify; */
-        line-height: 15px;
+        line-height: 10px;
     }
 }
 @media screen and (max-width: 408px) {
@@ -305,11 +305,11 @@
     }
     .main-shoes button{
         font-size: 5px;
-        padding: 3px;
+        padding: 5px;
         width: 40%;
     }
 }
-/* shoes & bag-category start */
+/* shoes & bag-category end */
 
 /* Newsletter Section start */
 .newsletter{
@@ -375,11 +375,11 @@
 }
 @media screen and (max-width: 500px){
     .newsletter h1{
-        font-size: 15px;
+        font-size: 10px;
     }
     .inbutton button{
-        margin-top: 15;
-        font-size: 7;
+        margin-top: 8px;
+        font-size: 7px;
         border-radius: 5px;
         padding: 7px 10px 7px 10px;
 
