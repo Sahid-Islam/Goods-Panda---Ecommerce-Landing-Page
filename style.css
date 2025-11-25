@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header section start */
+.main-container{
+    margin: 10px 100px 20px 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{ 
+    padding: 20px;
+}
+/* header section end */
+
+/* hero section start */
+.hero-section{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.product-details {
+    margin-top: 30px;
+}
+.product-details h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 56px;
+}
+.product-details p{
+    margin-top: 30px;
+    font-size: 16px;
+    padding-right: 250px;
+    line-height: 30px;
+    color: #4E4E4E;
+}
+.product-details h3{
+    margin-top: 30px;
+    font-size: 41px;
+    color: #FF136F;
+
+}
+#btn{
+    color: white;
+    background-color: #FF136F;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 168px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #000000e1;
+    transition: 0.7s;
+}
+@media  screen and (max-width: 1325px) {
+    .product-details h1{
+        font-size: 40px;
+    }
+    .product-details p{
+        padding-right: 100px;
+    }
+}
+@media  screen and (max-width: 1169px) {
+    .product-details h1{
+        font-size: 30px;
+    }
+    .product-details p{
+        padding-right: 60px;
+    }
+    .product-img img{
+        margin: 0px;
+        padding: 0px;
+        width: 300px;
+    }
+    .product-details h3{
+        font-size: 25px;
+    }
+    #btn{
+        width: 120px;
+        font-size: 16px;
+    }
+}
+@media  screen and (max-width: 960px) {
+    .product-details h1{
+        font-size: 20px;
+    }
+    .product-details p{
+        padding-right:0;
+        line-height: 20px;
+    }
+    .product-img img{
+        margin: 0px;
+        padding: 0px;
+        width: 300px;
+    }
+    .hero-section{
+        gap: 10px;
+    }
+}
+@media  screen and (max-width: 830px) {
+    .product-details{
+        text-align: center;
+    }
+
+    .hero-section{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media  screen and (max-width: 600px) {
+        .product-img img{
+        width: 250px;
+    }
+}
+@media  screen and (max-width: 520px) {
+    .product-details{
+        text-align: justify;
+    }
+    .product-details h1{
+        font-size: 15px;
+    }
+    .product-details p{
+        font-size: 12px;
+    }
+    .product-details h3{
+        font-size: 15px;
+    }
+    #btn{
+        width: 80px;
+        font-size: 10px;
+    }
+    .product-img img{
+        width: 180px;
+    }
+    .hero-section{
+        padding: 10px
+    }
+}
+/* hero section end */
+
+/* category section start */
+.main-category{
+    margin-top: 30px;
+}
+.main-category h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 36px;
+}
+.category{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 26px;
+}
+.watch{
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px 10px 10px 15px;
+    margin: 0;
+    justify-content: space-between;
+    background-color: #FF9C35;
+    gap: 30px;
+    align-items: center;
+}
+.watch h3{
+    font-size: 36px;
+    color: white;
+}
+.bag{
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px 10px 10px 15px;
+    margin: 0;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    background-color: #FF136F;
+}
+.bag h3{
+    font-size: 36px;
+    color: white;
+}
+.shoes{
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px 10px 10px 15px;
+    margin: 0;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    background-color: #3F07F8;
+
+}
+.shoes h3{
+    font-size: 36px;
+    color: white;
+}
+@media screen and (max-width:1050px) {
+    .category{
+        flex-direction: column;
+    }
+    .main-category h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:510px) {
+    .watch img{
+        width: 60px;
+    }
+    .bag img{
+        width: 60px;
+    }
+    .shoes img{
+        width: 60px;
+    }
+    .category h3{
+        font-size: 20px;
+    }
+}
+/* category section end */
+
+/* shoes & bag-category start */
+.main-shoes{
+    margin-top: 96px;
+}
+.shoes-category{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 26px;
+}
+.card{
+    border: 1px solid #4E4E4E;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.7s;
+}
+.card img{
+    margin-top: 22px;
+}
+.card h3{
+    font-size: 24px;
+    font-family: 'poppins', sans-serif;
+}
+.card p{
+    margin: 10px 0px;
+    color: #4E4E4E;
+    line-height: 30px;
+}
+.card button{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 20px 14px;
+    border: none;
+    border-radius: 6px;
+    width: 168px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.card button:hover{
+    background-color: #FF136F;
+}
+@media screen and (max-width: 1328px) {
+    .shoes-category{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 592px) {
+    .main-shoes img{
+        width: 150px;
+    }
+    .main-shoes button{
+        font-size: 15px;
+        padding: 10px;
+        /* width: 50px; */
+    }
+    .main-shoes h3{
+        font-size: 15px;
+    }
+    .main-shoes p{
+        /* text-align: justify; */
+        line-height: 15px;
+    }
+}
+@media screen and (max-width: 408px) {
+    .main-shoes img{
+        width: 100px;
+    }
+    .main-shoes button{
+        font-size: 5px;
+        padding: 3px;
+        width: 40%;
+    }
+}
+/* shoes & bag-category start */
+
+/* Newsletter Section start */
+.newsletter{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #FFF2F1;
+    padding: 146px 246px;
+}
+.newsletter p{
+    margin: 20px 0px;
+}
+.inbutton{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ .inbutton input{
+    color: #CCCCCC;
+    font-size: 24px;
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+.inbutton button{
+    background-color: #FF136F;
+    color: white;
+    font-size: 24px;
+    flex: 0.5;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+} 
+.inbutton button:hover{
+    background-color: black;
+    transition: 0.7s;
+}
+@media screen and (max-width: 1152px) {
+    .inbutton{
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter{
+        padding: 50px;
+    }
+    .newsletter h1{
+        font-size: 25px;
+    }
+    .inbutton button{
+        /* width: 50%; */
+        margin-top: 22px;
+        font-size: 15px;
+        border-radius: 5px;
+        padding: 10px 20px 10px 20px;
+
+    }
+    .inbutton input{
+        border-radius: 5px;
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px){
+    .newsletter h1{
+        font-size: 15px;
+    }
+    .inbutton button{
+        margin-top: 15;
+        font-size: 7;
+        border-radius: 5px;
+        padding: 7px 10px 7px 10px;
+
+    }
+    .inbutton input{
+        border-radius: 5px;
+        padding: 7px;
+        font-size: 10px;
+    }
+}
+/* Newsletter Section end */
