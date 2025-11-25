@@ -119,6 +119,9 @@
         .product-img img{
         width: 250px;
     }
+    .main-container{
+    margin: 10px 50px 20px 50px;
+}
 }
 @media  screen and (max-width: 520px) {
     .product-details{
